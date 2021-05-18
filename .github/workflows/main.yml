@@ -30,4 +30,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build with Ant
-        run: ant -noinput -buildfile build.xml
+        run: set JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8 && ant -noinput -buildfile build.xml
