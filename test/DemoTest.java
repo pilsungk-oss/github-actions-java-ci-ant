@@ -26,7 +26,7 @@ class DemoTest {
 		
 		
 		// "Hello" + "World" != "helloworld"
-		assertNotEquals("helloworld", demo.concatenateString("Hello", "World"), "대소문자 구별되어야 함");
+		assertNotEquals("helloworld", demo.concatenateString("Hello", "World"), "Capital and small cases");
 	}
 	
 	@Test
